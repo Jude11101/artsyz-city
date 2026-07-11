@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арциз - город с богатой историей</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🏛️ Арциз</div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О городе</a></li>
+                <li><a href="#attractions">Достопримечательности</a></li>
+                <li><a href="#history">История</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Добро пожаловать в Арциз</h1>
+            <p>Исторический город с уникальным наследием и культурой</p>
+            <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Узнать больше</button>
+        </div>
+    </section>
+
+    <!-- О городе -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О городе Арциз</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Арциз — исторический город, расположенный на берегу реки Когильник в Одесской области Украины. Город известен своей богатой историей, которая восходит к древним временам.</p>
+                    <p>Арциз — это место, где встречаются традиции и современность, где каждый уголок рассказывает историю, а люди гостеприимны и дружелюбны.</p>
+                    <div class="city-stats">
+                        <div class="stat">
+                            <h3>~15,000</h3>
+                            <p>Население</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1760s</h3>
+                            <p>Период основания</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Достопримечательностей</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x400?text=Город+Арциз" alt="Город Арциз">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Достопримечательности -->
+    <section id="attractions" class="attractions">
+        <div class="container">
+            <h2>Достопримечательности</h2>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Церковь" alt="Церковь">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Свято-Троицкая церковь</h3>
+                        <p>Красивый храм, построенный в XIX веке. Это центральная духовная достопримечательность города.</p>
+                        <span class="tag">Религия</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Парк" alt="Парк">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Центральный парк</h3>
+                        <p>Прекрасное место для прогулок и отдыха. Идеально для семей и влюбленных пар.</p>
+                        <span class="tag">Природа</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Река" alt="Река">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Река Когильник</h3>
+                        <p>Живописная река с красивыми видами. Отличное место для рыбалки и фотографий.</p>
+                        <span class="tag">Природа</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Музей" alt="Музей">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Краеведческий музей</h3>
+                        <p>Музей с артефактами и документами по истории Арциза и региона.</p>
+                        <span class="tag">История</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Памятник" alt="Памятник">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Памятник героям</h3>
+                        <p>Мемориал, посвященный героям. Место памяти и уважения к истории.</p>
+                        <span class="tag">История</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://via.placeholder.com/400x300?text=Архитектура" alt="Школа">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>Историческая архитектура</h3>
+                        <p>Здания XIX века, которые свидетельствуют об истории города. Архитектурные памятники.</p>
+                        <span class="tag">Архитектура</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- История -->
+    <section id="history" class="history">
+        <div class="container">
+            <h2>История Арциза</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1760s</div>
+                    <div class="timeline-content">
+                        <h3>Основание города</h3>
+                        <p>Арциз был основан в середине XVIII века как поселение на берегу реки Когильник.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">1800s</div>
+                    <div class="timeline-content">
+                        <h3>Развитие города</h3>
+                        <p>В XIX веке город активно развивался. Были построены церковь, школа и административные здания.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">1900s</div>
+                    <div class="timeline-content">
+                        <h3>XX век</h3>
+                        <p>XX век принес значительные изменения. Развивалась промышленность, увеличивалось население.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">Сегодня</div>
+                    <div class="timeline-content">
+                        <h3>Арциз в наши дни</h3>
+                        <p>Сегодня Арциз — живой город с богатой культурой и гостеприимными жителями.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контактная информация</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>Арциз, Одесская область, Украина</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+380 (48) XXX-XX-XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@artsyz.ua</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Время работы</h3>
+                            <p>Круглосуточно</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Отправить сообщение</h3>
+                    <form>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Ваш email" required>
+                        <textarea placeholder="Сообщение" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Город Арциз. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
