@@ -22,12 +22,14 @@
         </div>
     </nav>
 
-    <!-- Главный баннер -->
+    <!-- Герой секция -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Добро пожаловать в Арциз</h1>
-            <p>Исторический город с уникальным наследием и культурой</p>
-            <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Узнать больше</button>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Добро пожаловать в Арциз</h1>
+                <p>Исторический город с уникальным наследием немецких колонистов</p>
+                <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Узнать больше</button>
+            </div>
         </div>
     </section>
 
@@ -37,25 +39,31 @@
             <h2>О городе Арциз</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Арциз — исторический город, расположенный на берегу реки Когильник в Одесской области Украины. Город известен своей богатой историей, которая восходит к древним временам.</p>
-                    <p>Арциз — это место, где встречаются традиции и современность, где каждый уголок рассказывает историю, а люди гостеприимны и дружелюбны.</p>
-                    <div class="city-stats">
-                        <div class="stat">
-                            <h3>~15,000</h3>
-                            <p>Население</p>
-                        </div>
-                        <div class="stat">
-                            <h3>1760s</h3>
-                            <p>Период основания</p>
-                        </div>
-                        <div class="stat">
-                            <h3>15+</h3>
-                            <p>Достопримечательностей</p>
-                        </div>
-                    </div>
+                    <p><strong>Арциз</strong> — город в Болградском районе Одесской области Украины, расположенный на берегу реки Когильник.</p>
+                    
+                    <p><strong>История основания:</strong> Город был основан в 1816 году немецкими колонистами из Вюртемберга, которые изначально назвали поселение <strong>Йоханнесхорт</strong> («крепость Иоанна»). В 1819 году по указу российского императора Александра I колония была переименована в <strong>Арциз</strong> — в честь французского города Арси-сюр-Об, у которого в 1814 году союзные войска одержали победу над армией Наполеона.</p>
+                    
+                    <p><strong>Льготы колонистам:</strong> Переселенцы получили значительные преимущества: каждой семье выделялось по 60 десятин земли, предоставлялись строительные материалы, долгосрочные кредиты, освобождение от налогов на 50 лет и от воинской повинности навсегда.</p>
+                    
+                    <p><strong>Развитие:</strong> К концу XIX — началу XX века Арциз стал одной из богатейших немецких колоний в регионе. Развивались торговля и ремесла, дважды в месяц проводились знаменитые базары.</p>
                 </div>
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/500x400?text=Город+Арциз" alt="Город Арциз">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Artsiz_City_Hall_%282018%29.jpg/640px-Artsiz_City_Hall_%282018%29.jpg" alt="Здание администрации Арциза">
+                </div>
+            </div>
+
+            <div class="city-stats">
+                <div class="stat">
+                    <h3>📅 1816</h3>
+                    <p>Год основания</p>
+                </div>
+                <div class="stat">
+                    <h3>👥 14,000</h3>
+                    <p>Население</p>
+                </div>
+                <div class="stat">
+                    <h3>🌍 1963</h3>
+                    <p>Получил статус города</p>
                 </div>
             </div>
         </div>
@@ -66,68 +74,74 @@
         <div class="container">
             <h2>Достопримечательности</h2>
             <div class="attractions-grid">
+                <!-- Кирха -->
                 <div class="attraction-card">
                     <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Церковь" alt="Церковь">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Artsiz_church.jpg/640px-Artsiz_church.jpg" alt="Кирха в Арцизе">
                     </div>
                     <div class="attraction-info">
-                        <h3>Свято-Троицкая церковь</h3>
-                        <p>Красивый храм, построенный в XIX веке. Это центральная духовная достопримечательность города.</p>
-                        <span class="tag">Религия</span>
+                        <h3>⛪ Кирха (Немецкая церковь)</h3>
+                        <p>Величественное здание немецкой католической церкви, построенное немецкими колонистами. Архитектурный памятник, отражающий богатое немецкое наследие города.</p>
+                        <span class="tag">Архитектура</span>
                     </div>
                 </div>
 
+                <!-- Железнодорожная станция -->
                 <div class="attraction-card">
                     <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Парк" alt="Парк">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Artsiz_railway_station.jpg/640px-Artsiz_railway_station.jpg" alt="Железнодорожная станция">
                     </div>
                     <div class="attraction-info">
-                        <h3>Центральный парк</h3>
-                        <p>Прекрасное место для прогулок и отдыха. Идеально для семей и влюбленных пар.</p>
-                        <span class="tag">Природа</span>
-                    </div>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Река" alt="Река">
-                    </div>
-                    <div class="attraction-info">
-                        <h3>Река Когильник</h3>
-                        <p>Живописная река с красивыми видами. Отличное место для рыбалки и фотографий.</p>
-                        <span class="tag">Природа</span>
-                    </div>
-                </div>
-
-                <div class="attraction-card">
-                    <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Музей" alt="Музей">
-                    </div>
-                    <div class="attraction-info">
-                        <h3>Краеведческий музей</h3>
-                        <p>Музей с артефактами и документами по истории Арциза и региона.</p>
+                        <h3>🚂 Железнодорожная станция</h3>
+                        <p>Историческое здание станции, построенное в 1916 году. Свидетель развития транспорта и торговли в регионе. Памятник инженерному искусству начала XX века.</p>
                         <span class="tag">История</span>
                     </div>
                 </div>
 
+                <!-- Историко-краеведческий музей -->
                 <div class="attraction-card">
                     <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Памятник" alt="Памятник">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Artsiz_museum.jpg/640px-Artsiz_museum.jpg" alt="Музей">
                     </div>
                     <div class="attraction-info">
-                        <h3>Памятник героям</h3>
-                        <p>Мемориал, посвященный героям. Место памяти и уважения к истории.</p>
-                        <span class="tag">История</span>
+                        <h3>🏛️ Историко-краеведческий музей</h3>
+                        <p>Музей содержит экспонаты, рассказывающие об истории Арциза, жизни немецких колонистов, их быте, культуре и вкладе в развитие региона.</p>
+                        <span class="tag">Культура</span>
                     </div>
                 </div>
 
+                <!-- Памятник колонистам -->
                 <div class="attraction-card">
                     <div class="attraction-image">
-                        <img src="https://via.placeholder.com/400x300?text=Архитектура" alt="Школа">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Artsiz_monument.jpg/640px-Artsiz_monument.jpg" alt="Памятник">
                     </div>
                     <div class="attraction-info">
-                        <h3>Историческая архитектура</h3>
-                        <p>Здания XIX века, которые свидетельствуют об истории города. Архитектурные памятники.</p>
+                        <h3>🗿 Памятник немецким колонистам</h3>
+                        <p>Монумент в честь первых поселенцев, основавших Арциз в 1816 году. Символ уважения к немецкому наследию и истории города.</p>
+                        <span class="tag">Монумент</span>
+                    </div>
+                </div>
+
+                <!-- Река Когильник -->
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Kogylnyk_river.jpg/640px-Kogylnyk_river.jpg" alt="Река Когильник">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>🌊 Река Когильник</h3>
+                        <p>Живописная река, на берегу которой расположен город. Место отдыха и природного туризма, популярное среди местных жителей и туристов.</p>
+                        <span class="tag">Природа</span>
+                    </div>
+                </div>
+
+                <!-- Здание администрации -->
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Artsiz_City_Hall_%282018%29.jpg/640px-Artsiz_City_Hall_%282018%29.jpg" alt="Здание администрации">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>🏢 Здание администрации города</h3>
+                        <p>Современный административный центр Арциза. Символ городского управления и развития. Место, где принимаются важные решения для развития города.</p>
                         <span class="tag">Архитектура</span>
                     </div>
                 </div>
@@ -138,37 +152,69 @@
     <!-- История -->
     <section id="history" class="history">
         <div class="container">
-            <h2>История Арциза</h2>
+            <h2>Хронология истории Арциза</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-marker">1760s</div>
+                    <div class="timeline-marker">1</div>
                     <div class="timeline-content">
-                        <h3>Основание города</h3>
-                        <p>Арциз был основан в середине XVIII века как поселение на берегу реки Когильник.</p>
+                        <h3>1816 - Основание колонии</h3>
+                        <p>Немецкие колонисты из Вюртемберга основывают поселение Йоханнесхорт. Каждой семье выделяется 60 десятин земли, предоставляются кредиты и налоговые льготы на 50 лет.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-marker">1800s</div>
+                    <div class="timeline-marker">2</div>
                     <div class="timeline-content">
-                        <h3>Развитие города</h3>
-                        <p>В XIX веке город активно развивался. Были построены церковь, школа и административные здания.</p>
+                        <h3>1819 - Переименование в Арциз</h3>
+                        <p>По указу российского императора Александра I колония переименована в Арциз — в честь французского города Арси-сюр-Об, где в 1814 году союзные войска одержали победу над Наполеоном.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-marker">1900s</div>
+                    <div class="timeline-marker">3</div>
                     <div class="timeline-content">
-                        <h3>XX век</h3>
-                        <p>XX век принес значительные изменения. Развивалась промышленность, увеличивалось население.</p>
+                        <h3>XIX век - Расцвет</h3>
+                        <p>Арциз становится одной из богатейших немецких колоний региона. Развиваются сельское хозяйство, торговля и ремесла. Дважды в месяц проводятся знаменитые базары.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>1916 - Железнодорожная станция</h3>
+                        <p>Построена железнодорожная станция, связавшая Арциз с другими регионами и значительно улучшившая торговлю и экономику города.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">5</div>
+                    <div class="timeline-content">
+                        <h3>XX век - Советский период</h3>
+                        <p>Арциз входит в состав Советского Союза. Город развивается как индустриальный центр, строятся заводы и предприятия. Осуществляется активная индустриализация.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">6</div>
+                    <div class="timeline-content">
+                        <h3>1963 - Статус города</h3>
+                        <p>Арцизу присвоен официальный статус города, признавая его значение как важного экономического и культурного центра региона.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">7</div>
+                    <div class="timeline-content">
+                        <h3>1991 - Независимая Украина</h3>
+                        <p>После распада Советского Союза Арциз становится частью независимой Украины. Город сохраняет свое историческое и культурное наследие.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-marker">Сегодня</div>
                     <div class="timeline-content">
-                        <h3>Арциз в наши дни</h3>
-                        <p>Сегодня Арциз — живой город с богатой культурой и гостеприимными жителями.</p>
+                        <h3>Современный Арциз</h3>
+                        <p>В городе проживает около 14 тысяч человек разных национальностей (украинцы, русские, болгары, молдаване, гагаузы). Развиваются промышленность, сельское хозяйство и туризм. Действует историко-краеведческий музей, сохраняются архитектурные памятники немецкого наследия.</p>
                     </div>
                 </div>
             </div>
@@ -178,47 +224,44 @@
     <!-- Контакты -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Контактная информация</h2>
+            <h2>Контакты</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Адрес</h3>
-                            <p>Арциз, Одесская область, Украина</p>
+                            <p>Болградский район, Одесская область, Украина</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h3>Телефон</h3>
-                            <p>+380 (48) XXX-XX-XX</p>
+                            <p>+380 (482) 56-2-64</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p>info@artsyz.ua</p>
+                            <p>info@artsiz.gov.ua</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
-                            <h3>Время работы</h3>
-                            <p>Круглосуточно</p>
+                            <h3>Режим работы</h3>
+                            <p>Пн-Пт: 08:00 - 17:00</p>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h3>Отправить сообщение</h3>
-                    <form>
-                        <input type="text" placeholder="Ваше имя" required>
-                        <input type="email" placeholder="Ваш email" required>
-                        <textarea placeholder="Сообщение" rows="5" required></textarea>
-                        <button type="submit" class="btn btn-primary">Отправить</button>
-                    </form>
-                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </form>
             </div>
         </div>
     </section>
@@ -226,11 +269,14 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Город Арциз. Все права защищены.</p>
+            <div>
+                <p>&copy; 2024 Город Арциз. Все права защищены.</p>
+            </div>
             <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </footer>
